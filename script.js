@@ -1,5 +1,5 @@
 function DeleteMe() {
-
+    document.getElementById("MyResult").value = ""
 
 }
 
