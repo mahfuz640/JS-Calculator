@@ -10,5 +10,7 @@ function calculator(newValue) {
 
 
 function answer() {
-
+    var a = document.getElementById("MyResult").value;
+    var b = eval(a);
+    document.getElementById("MyResult").value = b;
 }
